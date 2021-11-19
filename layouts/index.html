@@ -1,0 +1,21 @@
+{{ define "main" }}
+
+<h1>GABG's Onions</h1>
+
+<p>
+This webpage lists all .onion sites availlable in GABG's websites for users who want extreme privacy<br/>
+In any case, be aware that every website advertise its .onion counterpart with the <code>Onion-Location</code> HTTP Header
+</p>
+<br/>
+
+<h1>.onion list</h1>
+
+<div class="posts-list">
+	<ul>
+	{{ range $.Site.Data.onion.onions }}
+	<li><a href="https://{{ .web }}/">{{ .web }}</a> ---> <a href="http://{{ .onion }}/">{{ .onion }}</a></li>
+	{{ end }}
+	</ul>
+</div>
+
+{{ end }}

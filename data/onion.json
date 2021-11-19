@@ -1,0 +1,32 @@
+{
+	"onions": [
+		{
+			"web": "analytics.data.gabg.site",
+			"onion": "cxfpm5fpw5lsadqzkowqdfnthzh4zlilvyntqqymupkeolgfcdcosjqd.onion"
+		},
+		{
+			"web": "archiver.winx.gabg.site",
+			"onion": "sygh7efjayssm4zbfejvut2fm5khyvmm4okypte2hyqmgwfzp5vokrqd.onion"
+		},
+		{
+			"web": "gabg.link",
+			"onion": "3gy3622nn3w5fmtjvfdr7kf66thy2qsdhrxergw4czouthhtzhh22aqd.onion"
+		},
+		{
+			"web": "gabg.site",
+			"onion": "f3lvjw6zaroqajsqeo3ew6bm5fqgwagkyrl2lh5qfebie2ngxlxcf4qd.onion"
+		},
+		{
+			"web": "onion.gabg.site",
+			"onion": "6mdvo6hb5e3ddnq7bb3mq5nwxqth3afljwt5yex6337yjrb47rivs6yd.onion"
+		},
+		{
+			"web": "ps1.gabg.site",
+			"onion": "vaz4iopur5s5ohydmka5tpbhecsd34vix356wejwsxjbncih5zk2fvid.onion"
+		},
+		{
+			"web": "video.gabg.site",
+			"onion": "qncu5yvyfqsak73caspwrensum4di4r7jsrrgb7oiltwsjsctjkfoqid.onion"
+		}
+	]
+}
