@@ -1,0 +1,33 @@
+name: CI/CD
+
+on:
+  push:
+    branches: [ main ]
+  pull_request: 
+  workflow_dispatch: 
+
+jobs:
+  BuildAndDeploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          submodules: 'true'
+
+      - name: Install Hugo
+        run: brew install hugo
+
+      - name: Build website with Hugo
+        run: |
+          hugo --minify
+          
+      - name: Deploy with rsync
+        uses: easingthemes/ssh-deploy@main
+        env:
+          SSH_PRIVATE_KEY: ${{ secrets.DEPLOY_KEY }}
+          ARGS: "-rtvzP --compress-level 6"
+          SOURCE: "public/"
+          REMOTE_HOST: gabg.site
+          REMOTE_USER: ${{ secrets.DEPLOY_USER }}
+          TARGET: "/var/www/onion.gabg.site"
