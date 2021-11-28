@@ -1,0 +1,32 @@
+MIT License
+
+Copyright (c) 2020 Marcin Mierzejewski
+Copyright (c) 2021-present Green and Blue G ("GABG" or "Green and Blue G") and contributors
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---
+
+This project uses the Hugo Console theme <https://github.com/mrmierzejewski/hugo-theme-console>
+whose licensed under the MIT License. The original code is modified to:
+1. Fit with a site-independent Content Security Policy <https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP>
+2. Be part of the Hugo site itself and not as a theme
+3. Response to the needs of this particular site
+
+All the modifications and the added code is also licensed under the MIT License written above
