@@ -1,7 +1,7 @@
 MIT License
 
 Copyright (c) 2020 Marcin Mierzejewski
-Copyright (c) 2021-present Green and Blue G ("GABG" or "Green and Blue G") and contributors
+Copyright (c) 2021-present Green and Blue G and contributors
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -29,4 +29,4 @@ whose licensed under the MIT License. The original code is modified to:
 2. Be part of the Hugo site itself and not as a theme
 3. Response to the needs of this particular site
 
-All the modifications and the added code is also licensed under the MIT License written above
+All the modifications and the added code are also licensed under the MIT License written above
